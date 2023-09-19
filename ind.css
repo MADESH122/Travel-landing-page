@@ -1,0 +1,399 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    user-select:none;
+}
+ 
+/*-----backimage-----*/
+#backimage{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    padding:50px 30px 50px 30px;
+    background-size:cover;
+}
+#heading1 a{
+     font-size:35px;
+    text-decoration: none;
+    font-weight:bold;
+    text-decoration:none;
+    color:black;
+}
+#heading1 .btn{
+    font-size:25px ;
+    background:rgb(73, 33, 184);
+    color:white;
+    border-radius:10px;
+}
+ /*-----id=lines3------ */
+ #lines3{
+margin:400px 0 300px 0;
+}
+#line1{
+    font-size:65px;
+    font-weight:bold;
+    color:rgb(73, 33, 184);
+}
+#line2{
+    font-size:40px;
+    font-weight:bold;
+    color:white;
+}
+#lines3 .btn{
+    padding:20px;
+    font-size:35px;
+    border-radius:15px;
+    font-weight:bolder;
+    color:white;
+    background:rgb(73, 33, 184);
+
+}
+  .btn:hover{
+    opacity: 0.8;
+}
+
+/*--------CATEGORY--------*/
+#CATEGORY{
+    margin:90px 0 0 0;
+}
+#CATEGORY1{
+    font-size:40px;
+    font-weight:bolder;
+    color:rgb(73, 33, 184);
+}
+#CATEGORY2{
+    font-size:80px;
+    font-weight:bolder;
+    color: rgb(27, 13, 87);
+}
+#CATEGORY-cards{
+    text-align: center;
+    margin:50px;
+}
+#CATEGORY-cards .col-md-3 h5{
+    padding:10px  0 0 5px; 
+}
+#CATEGORY-cards .col-md-3 p{
+    padding:10px 100px; 
+}
+#CATEGORY-cards .col-md-3 .whitebox{
+     margin:20px;
+    padding:100px 0;
+    border-radius:25px;
+}
+
+/*--------Top selling---------*/
+#topselling img{
+    width:380px;
+    height:510px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius:30px 30px 0 0;
+}
+#topselling #image3{
+     width:100%;
+    height:670px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:  wrap;
+    justify-content: center;
+    margin:0 0 100px 0;
+ }
+ #topselling #image3 .col1{
+    margin:50px 80px; 
+    width:380px;
+ }
+ #topselling #image3 .col1 .text{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom:40px;
+    background-color:white;
+    text-align: center;
+    padding:50px 109px;    
+    border-radius:0 0 20px 20px ;
+    font-weight:bolder;
+ }
+ #topselling #image3 .col2{
+    margin:50px 80px; 
+     width:380px;
+ }
+ #topselling #image3 .col2 .text{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom:40px;
+    background-color: white;
+    text-align: center;
+    padding:50px 114px;    
+    border-radius:0 0 20px 20px ;
+    font-weight:bolder;
+
+ }
+ #topselling #image3 .col3{
+    margin:50px 80px; 
+     width:380px;
+ }
+ #topselling #image3 .col3 .text{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom:40px;
+    background-color: white;
+    text-align: center;
+    padding:50px 119px;    
+    border-radius:0 0 20px 20px ;
+    font-weight:bolder;
+ 
+}
+#topselling #image3 .col3 .text:hover{
+    color:rgb(151, 144, 144);
+}
+ 
+
+/*---------Easy-and-Fast----------*/
+#EasyandFast #text h6{
+    font-size:18px;
+    font-weight:bolder;    
+    color: rgb(85, 76, 128);
+}
+#EasyandFast #text h1{
+    font-weight: bolder;
+    font-size: 60px;
+    color: rgb(27, 13, 87);
+}
+#EasyandFast #text h5{
+    color: rgb(73, 57, 146);
+    font-weight:bolder;
+    margin:15px  0 10px 0;
+}
+#EasyandFast #text p{
+    width:450px;
+}
+#EasyandFast #text i{
+font-size:30px;
+padding:10px 13px;
+border-radius:50%;
+background:rgb(238, 235, 255);
+}
+#EasyandFast #text .point1,.point2,.point3{
+    margin:30px 0 10px 30px;
+}
+#EasyandFast #text .point1,.point2 {
+    border-bottom:1px solid rgb(78, 76, 76);
+}
+.tripto{
+    margin:100px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    padding:30px;
+    border-radius:25px;
+    box-shadow: rgba(44, 23, 151, 0.48) 6px 2px 30px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    width:400px;
+    height:480px;
+}
+.tripto h4{
+padding:10px 0;
+}
+.tripto p{
+    font-size:17px;
+}
+.tripto p a{
+   margin:0 20px 0 0; 
+   padding:0 20px 0 0; 
+   border-right:1px solid rgb(63, 62, 62);
+}
+.tripto .icons3 i{
+    font-size:25px;
+    color:rgb(80, 78, 78);
+    padding:0 20px 0 0;    
+ }
+ .tripto .people i{
+    font-size:25px;
+    color:rgb(80, 78, 78);
+    padding:0 15px 0 0;
+ }
+ .tripto .people {
+    margin:15px 0;
+    font-weight: bolder;
+ }
+/*-------progress-bar------*/
+#Ongoing{
+    box-shadow: rgba(44, 23, 151, 0.48) 6px 2px 30px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border-radius:20px;
+    width:300px;
+    position: relative;
+    bottom:100px;
+    left:200px;
+    background-color:white;
+    font-size: 15px;
+  }
+ #Ongoing  img{
+  margin:10px 0;
+ }
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------Why-Choose-us-----------*/
+#WhyChooseUs  {
+ margin:100px 0 80px 0;
+ display: flex;
+ justify-content: center;
+}
+#WhyChooseUs h5{
+    font-size:40px;
+    font-weight:bolder;
+}
+#WhyChooseUs  p{
+    width:800px;  
+    margin:30px 0;
+    font-size:20px;
+ }
+#WhyChooseUs  #flex{
+display: flex;
+justify-content:center;
+}
+ 
+
+/* ------------cards3--------------*/
+#cards3{
+margin:0 0 150px 0;
+}
+#cards3  .col-md-3  {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding:30px;
+     margin:0 1px 30px  40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius:10px;
+}
+#cards3 .col-md-3 p{
+  padding:30px 0;
+}
+#cards3 .col-md-3 h5{
+    font-weight:bold;
+    font-size:30px;
+    color: rgb(27, 13, 87);
+
+    
+  }
+#cards3 .col-md-3 i{
+    font-size:50px;
+     position: relative;
+     bottom: 70px;
+     color: rgb(27, 13, 87);
+   }
+
+/*--------Subscribe----------*/
+#subscribe #icon1{
+    color:rgb(73, 33, 184);
+
+}
+#subscribe .row{
+    display: flex;
+    flex-wrap: wrap;
+    background :rgb(230, 223, 250)  ;  
+    border-radius:250px  0  250px 0 ;
+    margin:0 50px 0 50px ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+ #subscribe .row #para1{
+ font-size:35px;
+ font-weight: bold;
+ margin:40px 0 20px 0;
+ color: rgb(90, 86, 86);
+ }
+ #subscribe .row #para2{
+    font-size:35px;
+    font-weight: bold;
+    margin:0 0 40px 0;
+    color: rgb(90, 86, 86);
+}
+#subscribe .row #inputbox{
+    font-size:20px;
+    font-weight: bold;
+    margin:20px 0 70px 0;
+}
+#subscribe .row #inputbox input{
+ width:350px;
+ height:50px;
+ border-radius:10px;
+ border:none;
+ margin:10px;
+ padding:9px;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; }
+#subscribe .row #inputbox button{
+   padding:12px;
+   color: white;
+   font-weight: bold;
+   border-radius:10px;
+   margin:0 0 7px 0;
+   background :rgb(73, 33, 184)  ;  
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; }
+
+/*-------finalbox-------*/
+#finalbox{
+  margin:200px 0 70px 0 ;
+}
+   
+#finalbox li{
+    list-style: none;
+    font-size:25px;
+    padding:5px 0;
+}
+#finalbox h5{
+ font-size: 40px;
+ margin: 0 0 30px 0;
+ font-weight: bold;
+}
+#finalbox a{
+   font-weight:bolder;
+   text-decoration: none;
+   color:rgb(92, 91, 91);
+}
+#finalbox  .para{
+    margin:70px 0;
+  }
+#finalbox  .fit i{
+color:black;
+font-size:40px;
+margin: 0  10px;
+} 
+#finalbox  .icards   {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+#finalbox  .icards  div{
+font-size:13px;
+background:black;
+color:rgb(202, 174, 255); 
+width:200px; 
+border-radius:20px;
+margin:10px;
+}
+#finalbox  .icards  i{
+font-size:30px;
+color: rgb(255, 255, 255);
+ 
+   }
+#finalbox  .icards  p{
+ margin:5px 0 10px 0;
+}
+       
+   
+   
